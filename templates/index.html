@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> Diabetes Predictor </title>
+        <link rel="shortcut icon" href="{% static '/images/bank-favicon-icon.ico' %}">
+       
+        <!-- Font Family -->
+          <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+          <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+        <!-- CSS -->
+          <link rel="stylesheet" type="text/css" href="{% static '/css/diabetes_prediction.css' %}">
+    </head>
+
+    <body>
+      <!-- header -->
+          <header>
+                 <nav>
+                      <div class="logo"> 
+                      <h1 class=" "> Diabetes Predictor </h1>
+                      </div>
+                </nav>
+         </header>
+
+    <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class='heading_first'>Diabetes Prediction for </span><span class="heading_second"> Diabetes Paients </span></h2>
+    	</div>
+
+    <!-- Text Area -->
+    	<div class="ml-container">
+    		<form action="predict/"  method="POST">
+                 {% csrf_token %}
+                <input class="form-input" type="text" name="pregnancies" placeholder="Number of Pregnancies eg. 0"><br>
+                <input class="form-input" type="text" name="glucose" placeholder="Glucose (mg/dL) eg. 82"><br>
+                <input class="form-input" type="text" name="bloodpressure" placeholder="Blood Pressure (mmHg) eg. 89"><br>
+                <input class="form-input" type="text" name="skinthickness" placeholder="Skin Thickness (mm) eg. 24"><br>
+                <input class="form-input" type="text" name="insulin" placeholder="Insulin Level (IU/mL) eg. 92"><br>
+                <input class="form-input" type="text" name="bmi" placeholder="Body Mass Index (kg/m²) eg. 34.1"><br>
+                <input class="form-input" type="text" name="dpf" placeholder="Diabetes Pedigree Function eg. 0.65"><br>
+                <input class="form-input" type="text" name="age" placeholder="Age (years) eg. 39"><br>
+
+        		 <input type="submit" class="myButton" value="Predict">
+        	</form>
+    	</div>
+
+<!-- FOOTER -->
+      <div class="footer">
+         <div class="contact"> 
+               <a target="_blank" href="https://www.linkedin.com/in/gokul-patil-0a6a96189"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://github.com/gokul-patil0509/Loan-Application-Approval-Prediction-Deployment"><i class="fab fa-github fa-lg contact-icon"></i></a>
+         </div>
+         <div class='description'>
+    		  <p>A Machine Learning Web App, Built with Django, Deployed using Heroku.</p>
+    	 </div>
+           <p class='footer-description'>Made with ❤️ by Gokul Patil </p>
+      </div>
+
+    </body>
+</html>
+      
