@@ -9,7 +9,7 @@ Deployed at: _https://diabetes-disease-predictor.herokuapp.com/_
 
 _**----- Algorithms -----**_<br />
 • If you are searching for __Code__, __Algorithms used__ and __Accuracy__ of the model.. you won't find it here. Click the link mentioned below for the same:<br />
-Link: _https://https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Diabetes-Prediction-Deployment_
+Link: _https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Diabetes-Prediction-Deployment_
 
 • Please do ⭐ the repository, if it helped you in anyway.
 
