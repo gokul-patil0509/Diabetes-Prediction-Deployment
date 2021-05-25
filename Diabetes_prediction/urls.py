@@ -6,5 +6,5 @@ from django.conf import settings
 
 
 urlpatterns = [
-     path('app/', include('Classifier_Web_App.urls')),
+     path('', include('Classifier_Web_App.urls')),
 ]
