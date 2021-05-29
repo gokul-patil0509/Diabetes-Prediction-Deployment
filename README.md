@@ -16,3 +16,11 @@ Link: _https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Diabet
 • A glimpse of the web app:
 
  ![GIF](readme_resources/diabetes_prediction.png)
+ 
+ _**----- PREDICTION NO:-1 -----**_<br />
+ 
+  ![GIF](readme_resources/diabetes_result1.png)
+  
+  _**----- PREDICTION NO:-2 -----**_<br />
+  
+  ![GIF](readme_resources/diabetes_result2.png)
