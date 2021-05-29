@@ -20,9 +20,9 @@ Link: _https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Diabet
  _**----- PREDICTION NO:-1 -----**_<br />
  • Live Demo:_https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Diabetes-Prediction-Deployment_ 
  
-  ![GIF](readme_resources/diabetes_result1.png)
+ ![GIF](readme_resources/diabetes_result1.png)
   
-  _**----- PREDICTION NO:-2 -----**_<br />
-   • Live Demo:_https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Diabetes-Prediction-Deployment_ 
+ _**----- PREDICTION NO:-2 -----**_<br />
+ • Live Demo:_https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Diabetes-Prediction-Deployment_ 
  
-  ![GIF](readme_resources/diabetes_result2.png)
+ ![GIF](readme_resources/diabetes_result2.png)
